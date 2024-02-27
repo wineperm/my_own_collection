@@ -1,0 +1,11 @@
+---
+- name: run module
+  my_own_module:
+    name: "{{ my_own_module_name }}"
+    path: "{{ my_own_module_path }}"
+    content: "{{ my_own_module_content }}"
+    force: "{{ my_own_module_force }}"
+  register: testout
+- name: dump test out
+  debug:
+    msg: "{{ testout }}"

@@ -1,0 +1,5 @@
+---
+my_own_module_name: 08-ansible-06-module
+my_own_module_path: /tmp/netology/
+my_own_module_content: KLS (permwine)
+my_own_module_force: false
